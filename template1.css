@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: TheSans;
+}
+
+@font-face {
+  font-family: TheSans;
+  src: url(Plain.ttf);
+}
+
+.body {
+  background-color: #61A385;
+}
+
+.template {
+  padding-top: 2.5vw;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border-radius: 20px;
+  width: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 15px 30px;
+}
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 0.5vw;
+  width: 16vw;
+  height:2.6vw;
+  padding: 0px 1vw;
+  text-align: right;
+  background: #fff;
+  border: 2px solid #40896A;
+  color: #40896A;
+  font-size: 1.3vw;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  margin: 2vw 0vw;
+}
+
+.download {
+  text-align: center;
+}
+
+#download-btn {
+  background-color: #fff;
+  text-decoration: none;
+  padding: 0.2vw 2vw;
+  font-size: 1.3vw;
+  border-radius: 0.5vw;
+  color: #40896A;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  padding: 4vw 0vw 2vw;
+  text-align: center;
+}
+
+footer h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+}
+
+.icons {
+  padding: 1vw ;
+}
+
+i {
+  font-size: 2vw;
+  padding: 0.5vw;
+  margin-right:0.7vw ;
+  margin-left:0.7vw ;
+  color: #40896A;
+  width:2vw;
+  height: 2vw;
+  background-color: #fff;
+  border-radius: 50vw;
+  transition: 0.5s ease-in-out;
+}
+
+i:hover {
+  color: #fff;
+  background-color: #40896A;
+}
